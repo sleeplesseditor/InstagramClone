@@ -10,7 +10,7 @@ export function setIsAppWorking (isAppWorking) {
 }
 
 export function setLanguage(language) {
-    AsynStorage.setItem(languageKeyName, language.languageKey)
+    AsyncStorage.setItem(languageKeyName, language.languageKey)
     return {
         type: types.SET_LANGUAGE,
         language
