@@ -5,6 +5,7 @@
 
 # dependencies
 /node_modules
+/src/config/index.js
 
 # misc
 .env.local
