@@ -7,7 +7,7 @@ import {
     View
 } from 'react-native';
 import * as imageUtils from '../../utils/images';
-import buttonStyles from '../../styles/common/buttons';
+import buttonsStyles from '../../styles/common/buttons';
 import LikeButton from '../LikeButton';
 import IconButton from '../IconButton';
 import { locationIcon, commentIcon, moreIcon } from '../../utils/icons';

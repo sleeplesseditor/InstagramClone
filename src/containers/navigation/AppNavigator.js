@@ -1,4 +1,4 @@
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 import Home from '../../views/Home';
 import ImageEditor from '../../views/ImageEditor';
 import MapContainer from '../../views/MapContainer';
@@ -7,7 +7,7 @@ const navigatorConfiguration = {
     headerMode: 'none'
 };
 
-const AppNavigator = StackNavigator({
+const AppNavigator = createStackNavigator({
     Home: {
         screen: Home
     },
